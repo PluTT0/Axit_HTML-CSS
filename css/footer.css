@@ -1,0 +1,31 @@
+footer {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 99px;
+    background-color:black;
+}
+
+.footer_icons {
+    margin: auto;
+    padding-top: 38px;
+    width: 317px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_text{
+    margin-top: 15px;
+    text-align: center;
+    opacity: 0.5;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.footer_icons:hover{
+    color:#FF8C2C;
+    transition-duration: 0.3s;
+}

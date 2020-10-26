@@ -1,0 +1,53 @@
+.street {
+    background-image: url(../img/bg1.png);
+    min-height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.street_title {
+    padding-top: 74px;
+    font-family: 'Raleway';
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.street_title:after {
+    content: '';
+    display: block;
+    margin: 24px auto;
+    width: 64px;
+    height: 2px;
+    background-color:#ffffff;
+}
+
+.street_subtitle {
+    display: block;
+    text-align: center;
+    margin: 30 auto;
+    opacity: 0.8;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.street_btn{
+    text-align: center;
+    margin-top: 34px;
+}
+
+.street_download {
+    display: inline-block;
+    color:#ffffff;
+    background: none;
+    padding: 15px 32px; 
+    text-decoration: none; 
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}

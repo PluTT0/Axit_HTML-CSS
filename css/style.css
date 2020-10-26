@@ -1,0 +1,30 @@
+@import "../css/header.css";
+@import "../css/axit.css";
+@import "../css/media.css";
+@import "../css/awesome.css";
+@import "../css/prise.css";
+@import "../css/coments.css";
+@import "../css/street.css";
+@import "../css/contact.css";
+@import "../css/footer.css";
+
+
+
+.body{
+    font-family: 'Open Sans' sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+input{
+    outline: none;
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        width: 90%;
+    }
+}

@@ -1,0 +1,147 @@
+.contact{
+    width: 100%;
+}
+
+.contact_title {
+    font-family: 'Raleway';
+    text-align: center;
+    margin-top: 107px;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121
+}
+
+.contact_title:after{
+    content: '';
+    display: block;
+    margin: 30px auto;
+    width: 64px;
+    height: 2px;
+    background-color:#FF8C2C;
+}
+
+.contact_subtitle {
+    display: block;
+    text-align: center;
+    margin: 30 auto;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+
+.contact_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_info{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contact_items {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_items input {
+    width: 400px;
+    border:none;
+    border-bottom: 1px solid #86878b;
+}
+
+
+.contact_items {
+    margin-right: 67px;
+    padding-top: 30px;
+    font-size: 15px;
+    font-family: "Open Sans";
+    line-height: 1.2;
+    font-weight: 400;
+    color: #bdbdbd;
+    border:none;
+}
+
+.comtact_message{
+    border: none;
+    border-bottom: 1px solid #86878b;
+    outline: none;
+    font-family: "Open Sans";
+    color: #bdbdbd;
+}
+
+
+.contact_items_message {
+    padding: 30px auto;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #86878b;
+    outline: none;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+
+
+.send_btm {
+    margin:43px 0 87px 0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #FF9B51;
+    outline: none;
+    border: none;
+}
+
+
+.send_message{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.send_btm:hover{
+    background-color:black;
+}
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .contact_info{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact_items{
+        padding-bottom: 30px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .contact_info{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact_items input{
+        width: 300px;
+    }
+    .contact_items_message {
+        width: 300px;
+    }
+}
