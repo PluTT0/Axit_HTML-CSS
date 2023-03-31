@@ -25,7 +25,10 @@ footer {
     color: #ffffff;
 }
 
-.footer_icons:hover{
+.footer_icon {
+    display: block;
+}
+.footer_icon:hover{
     color:#FF8C2C;
     transition-duration: 0.3s;
 }
